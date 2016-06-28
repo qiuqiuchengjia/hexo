@@ -1,0 +1,128 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 戎码人生
+subtitle: 世界上有10种人，一种懂二进制，一种不懂二进制 ！
+description: 彪悍的人生不需要解释
+author: 戎码人生
+language: zh-Hans
+timezone: UTC
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://www.qiuchengjia.cn
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# 配置文件目录名称 
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # 是否在新标签栏打开文章链接
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight: #代码高亮
+  enable: true #是否启用
+  line_number: true #是否显示行号
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map: 
+tag_map: 
+            
+      
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination 每页多少条和分页目录名称
+per_page: 20
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/  配置主题的名字
+theme: hexo-theme-next
+
+
+# Google analytics
+google_analytics: UA-78633936-1
+# Baidu tongji
+baidu_analytics: e4576958a35169bbd480e4f9e4e45d32   
+# Duoshuo
+duoshuo_shortname: qiuchengjia
+# Disqus
+disqus_shortname:
+# Uyan
+uyan_id:
+
+
+
+# hexo sitemap网站地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+
+#swift_search:
+#enable:  true
+# Swiftype Search Key
+swiftype_key: NqvsgGPB5iPHZhojPVBH
+
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+    type: git
+    repo: 
+         coding: git@git.coding.net:qiuchengjia/qiuchengjia.git,master
+         github: git@github.com:qiuchengjia/qiuchengjia.github.io.git,master
+    message: 
+
+
+#配置页面文章的数量
+index_generator:
+  per_page: 5
+
+
+#添加百度/谷歌/本地 自定义站点内容搜索
+search:
+  path: search.xml
+  field: post
+
+#google的sitemap提交
+google_site_verification: ds7Z6wfgZDXtlM8MEMdnKgcgx7Qy3Q40-_puv7SDRTk
+
+
+# 百度分享服务
+baidushare: true
+
+# 多说分享服务
+duoshuo_share: true
+
+
+# 多说热评文章 true 或者 false
+duoshuo_hotartical: false

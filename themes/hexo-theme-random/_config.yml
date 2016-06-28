@@ -1,0 +1,93 @@
+
+# html lang
+language: /themes/hexo-theme-random/languages/zh_CN
+
+# main menu navigation
+menu:
+  首页: /
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  关于: /about
+  友链: /links
+  Github: https://github.com/qiuchengjia
+
+social:
+  GitHub: https://github.com/qiuchengjia
+  Coding.NET: https://coding.net/u/qiuchengjia/p/qiuchengjia/git
+  youtube: https://www.youtube.com/
+  DouBan: https://www.douban.com/people/145466621/
+
+# Google analytics
+google_analytics: true 
+# Baidu tongji
+baidu_analytics: true
+# Duoshuo
+duoshuo_shortname: qiuchengjia
+# Disqus
+disqus_shortname:
+# Uyan
+uyan_id:
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/random.css
+- /css/vegas.min.css
+- /css/highlight-railscasts.css
+- /css/jquery.fancybox.css
+- /css/iconfont/iconfont.css
+- /css/jquery.fancybox-thumbs.css
+- /css/plyr.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-2.2.3.min.js
+- /js/vegas.min.js
+- /js/random.js
+- /js/highlight.pack.js
+- /js/jquery.mousewheel.pack.js
+- /js/jquery.fancybox.pack.js
+- /js/jquery.fancybox-thumbs.js
+- /js/plyr.js
+
+backgroundImages:
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_1.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_2.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_3.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_4.jpg?imageView2/1/w/__width__/h/__height__
+# - http://7te9fe.com1.z0.glb.clouddn.com/bgimg_5.jpg?imageView2/1/w/__width__/h/__height__
+
+vegasConfig:
+  # more about config http://vegas.jaysalvat.com/documentation/settings/
+  # animation: 'random'
+  # transition: 'swirlRight'
+  preload­Image: true
+  transition:
+    - slideLeft2
+    - slideRight2
+    # - zoomIn
+    # - swirLeft
+    # - swirRight
+    # - flash
+    - flash2
+  timer: true
+  delay: 5000
+  shuffle: true
+  count: 28
+
+unsplashConfig:
+  # more about config on https://unsplash.it/
+  # blur: true
+  gravity: 'north' # north, east, south, west, center
+  # greyscale: true
+
+avatar: http://7xstki.com1.z0.glb.clouddn.com/%E6%88%91%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E5%A4%B4%E5%83%8F.jpg
+
+# do not like fancybox, set this as false, this will turn it off
+fancybox: true
+
+# set the visibility of hide button in left bottom.
+hideButtonVisibility: true
