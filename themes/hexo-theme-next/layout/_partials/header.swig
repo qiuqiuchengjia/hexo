@@ -64,6 +64,7 @@
     <div class="site-search">
       {% include 'search.swig' %}
     </div>
+
   {% endif %}
 </nav>
 
