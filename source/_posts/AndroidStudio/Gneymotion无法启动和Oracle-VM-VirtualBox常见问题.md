@@ -6,6 +6,9 @@ categories: AndroidStudio
 ---
 ### genymotion和VBOX下载
 
+- 可用的带VBOX的gemymotion [传送门](http://pan.baidu.com/s/1skWJGRV)
+
+
 - 有时候我们会遇到根源motion无法启动的问题，这里面有很大一部分原因是VirtualBox的配置问题，自从VirtualBox-4.3.12-93733-Win之后，就出现了很多的BUG，所以我们使用VirtualBox-4.3.12-93733-Win，下载地址：[传送门](http://pan.baidu.com/s/1dEn7kU9)
 
 ### 模拟器无法安装应用###
@@ -30,7 +33,7 @@ categories: AndroidStudio
 
 #### 配置全局网络配置####
 - 出现这个问题是我们的虚拟机的网络配置有问题，我们可以先去打开虚拟机，管理 -->全局设定-->网络-->仅主机（Host-Only）网络--双击下面的条目
-然后查看自己的IP，按照自己的IP网段进行配置，例如IP是192.168.56.10
+
 
 <center>![](http://img.blog.csdn.net/20160309165733985?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)</center>
 
