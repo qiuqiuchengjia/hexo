@@ -2,7 +2,7 @@
 title: hexo搭建个人博客
 date: 2016-06-02 18:24:38
 tags: [hexo,博客]
-categories: 通用
+categories: 博客
 photos:
 - http://7xstki.com1.z0.glb.clouddn.com/github%E5%9B%BE%E7%89%875.png
 - http://7xstki.com1.z0.glb.clouddn.com/github%E5%9B%BE%E7%89%877.png

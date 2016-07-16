@@ -2,7 +2,7 @@
 title: Hexo博客添加图片，音乐，视频
 date: 2016-06-07 14:37:58
 tags: [hexo]
-categories: 通用
+categories: 博客
 ---
 
 - 插入外部链接图片

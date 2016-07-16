@@ -2,7 +2,7 @@
 title: NexT主题内置标签
 date: 2016-06-17 17:38:40
 tags: hexo
-categories: 通用
+categories: 博客
 photos:
  - http://7xstki.com1.z0.glb.clouddn.com/NexT%E4%B8%BB%E9%A2%98%E5%86%85%E7%BD%AE%E6%A0%87%E7%AD%BE.jpg
  - http://theme-next.iissnan.com/uploads/tags/blockquote-center.png
